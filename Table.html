@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table Work</title>
+  </head>
+  <body>
+    <!-- Table 1 -->
+    <table cellspacing="0" cellpadding="5" width="400" height="300" border="1px solid black">
+      <tr valign="top">
+        <th>A</th>
+        <th>B</th>
+        <th>C</th>
+        <th rowspan="2">D</th>
+      </tr>
+      <tr align="center" valign="top">
+        <td>E</td>
+        <td>F</td>
+        <td>G</td>
+      </tr>
+      <tr align="center" valign="top">
+        <td>H</td>
+        <td>I</td>
+        <td align="center" colspan="2">J</td>
+      </tr>
+      <tr align="center" valign="top">
+        <td align="center" colspan="4">K</td>
+      </tr>
+    </table>
+
+    <br />
+
+    <!-- Table 2 -->
+    <table height="300" width="600" border="1px solid black" cellspacing="0">
+      <tr align="center">
+        <td colspan="2">Col 1</td>
+        <td>Col 2</td>
+        <td>Col 3</td>
+      </tr>
+      <tr align="center">
+        <td rowspan="3">Col 4</td>
+        <td>Col 5</td>
+        <td>Col 6</td>
+        <td>Col 7</td>
+      </tr>
+      <tr align="center">
+        <td colspan="3">Col 8</td>
+      </tr>
+      <tr align="center">
+        <td>Col 9</td>
+        <td colspan="2">Col 10</td>
+      </tr>
+    </table>
+
+    <br />
+
+    <!-- Table 3 -->
+    <table border="1px solid black" bordercolor="Green" cellspacing="1" height="100" width="500"
+    >
+      <tr align="center">
+        <th rowspan="2">A</th>
+        <th>B</th>
+        <th rowspan="3">D</th>
+        <th colspan="2">E</th>
+        <th>F</th>
+      </tr>
+      <tr align="center">
+        <td>C</td>
+        <td rowspan="2">G</td>
+        <td rowspan="2">H</td>
+        <td rowspan="2">I</td>
+      </tr>
+      <tr align="center">
+        <td colspan="2">J</td>
+      </tr>
+      <tr align="center">
+        <td colspan="3">K</td>
+        <td>L</td>
+        <td colspan="2">M</td>
+      </tr>
+    </table>
+
+    <br />
+
+    <!-- Table 4 ( Student Mark Sheet ) -->
+    <fieldset style="width: 470px">
+      <table cellspacing="10" align="center">
+        <tr>
+          <th colspan="6">STUDENTS MARK SHEET</th>
+        </tr>
+        <tr align="left">
+          <th>Name</th>
+          <th>Maths</th>
+          <th>Science</th>
+          <th>English</th>
+          <th>Physics</th>
+          <th>General Knowledge</th>
+        </tr>
+        <tr align="left">
+          <td>David</td>
+          <td>85</td>
+          <td>87</td>
+          <td>88</td>
+          <td>92</td>
+          <td>88</td>
+        </tr>
+        <tr align="left">
+          <td>Richard</td>
+          <td>91</td>
+          <td>81</td>
+          <td>78</td>
+          <td>71</td>
+          <td>74</td>
+        </tr>
+        <tr align="left">
+          <td>John</td>
+          <td>81</td>
+          <td>86</td>
+          <td>88</td>
+          <td>84</td>
+          <td>92</td>
+        </tr>
+        <tr align="left">
+          <td>Tony</td>
+          <td>84</td>
+          <td>86</td>
+          <td>87</td>
+          <td>82</td>
+          <td>81</td>
+        </tr>
+        <tr align="left">
+          <td>Scott</td>
+          <td>71</td>
+          <td>79</td>
+          <td>82</td>
+          <td>88</td>
+          <td>89</td>
+        </tr>
+      </table>
+    </fieldset>
+
+    <br />
+
+    <!-- Table 5 ( Time Table ) -->
+    <table cellpadding="3" border="1px solid black" cellspacing="0">
+      <tr align="center">
+        <th colspan="6">TIME TABLE</th>
+      </tr>
+      <tr align="center">
+        <th rowspan="6">Hours</th>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wed</th>
+        <th>Thu</th>
+        <th>Fri</th>
+      </tr>
+      <tr align="center">
+        <td>Math</td>
+        <td>Science</td>
+        <td>Math</td>
+        <td>Science</td>
+        <td>Arts</td>
+      </tr>
+      <tr align="center">
+        <td>Math</td>
+        <td>Science</td>
+        <td>Math</td>
+        <td>Science</td>
+        <td>Arts</td>
+      </tr>
+      <tr>
+        <th colspan="5">Lunch</th>
+      </tr>
+      <tr align="center">
+        <td>Math</td>
+        <td>Science</td>
+        <td>Math</td>
+        <th rowspan="2" colspan="2">Project</th>
+      </tr>
+      <tr align="center">
+        <td>Math</td>
+        <td>Science</td>
+        <td>Math</td>
+      </tr>
+    </table>
+
+    <br>
+
+    <!-- Table 6 ( Images ) -->
+     <table width="700" cellpadding="5" height="500" border="1px solid black" cellspacing="0">
+      <tr align="center">
+        <th>Name</th>
+        <th>Image</th>
+        <th>Category</th>
+      </tr>
+      <tr align="center">
+        <td>Tiger</td>
+        <td><img height="100px" src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/siberian-tiger-portrait-square-by-tl-wilson-photography-teresa-wilson.jpg" alt="Tiger"></td>
+        <td>Animal</td>
+      </tr>
+      <tr align="center">
+        <td>Eagle</td>
+        <td><img height="100px" src="https://img.freepik.com/premium-photo/eagle-portrait-black-background-square-composition_743855-27844.jpg" alt="Eagle"></td>
+        <td>Bird</td>
+      </tr>
+      <tr align="center">
+        <td>Rabbit</td>
+        <td><img height="100px" src="https://th.bing.com/th/id/OIP.-E1ThQLopsKKjOpVREgbdwHaHa?r=0&o=7rm=3&rs=1&pid=ImgDetMain&cb=idpwebp2&o=7&rm=3" alt="Rabbit"></td>
+        <td>Animal</td>
+      </tr>
+      <tr align="center">
+        <td>Parrot</td>
+        <td><img height="100px" src="https://thumbs.dreamstime.com/b/macaw-parrot-portrait-square-composition-eye-contact-close-up-shot-88014815.jpg" alt="Parrot"></td>
+        <td>Bird</td>
+      </tr>
+     </table>
+
+    <br>
+
+    <!-- Table 7 ( Text and bg Image ) -->
+     <table width="300" height="200" border="1px solid black">
+      <tr align="center">
+        <th background="https://wallpaperaccess.com/full/175935.jpg">S.No</th>
+        <th background="https://wallpaperaccess.com/full/175935.jpg">Name</th>
+        <th background="https://wallpaperaccess.com/full/175935.jpg">Score</th>
+      </tr>
+      <tr>
+        <td background="https://static.vecteezy.com/system/resources/previews/029/642/918/large_2x/nature-background-nature-landscape-background-nature-wallpaper-landscape-background-ai-generative-free-photo.jpg">1</td>
+        <td bgcolor="purple">Tina</td>
+        <td bgcolor="pink">100</td>
+      </tr>
+      <tr>
+        <td bgcolor="pink">2</td>
+        <td bgcolor="pink">Nina</td>
+        <td bgcolor="pink">99</td>
+      </tr>
+     </table>
+
+    <br>
+
+     <!-- Table 8 ( Seminar ) -->
+     <table cellpadding="2" border="1px solid black">
+      <tr align="center">
+        <th rowspan="3">Day</th>
+        <th colspan="3">Seminar</th>
+      </tr>
+      <tr align="center">
+        <th colspan="2">Schedule</th>
+        <th rowspan="2">Topic</th>
+      </tr>
+      <tr align="center">
+        <th>Begin</th>
+        <th>End</th>
+      </tr>
+      <tr align="center">
+        <td rowspan="2">Monday</td>
+        <td rowspan="2">8.00 a.m.</td>
+        <td rowspan="2">5:00 p.m</td>
+        <td>Introduction to XML</td>
+      </tr>
+      <tr align="center">
+        <td>Validity: DTD and Relax NG</td>
+      </tr>
+      <tr align="center">
+        <td rowspan="3">Tuesday</td>
+        <td>8.00 a.m.</td>
+        <td>11:00 a.m.</td>
+        <td rowspan="2">XPath</td>
+      </tr>
+      <tr align="center">
+        <td>11:00 a.m.</td>
+        <td>2:00 p.m.</td>
+      </tr>
+      <tr align="center">
+        <td>2:00 p.m.</td>
+        <td>5:00 p.m.</td>
+        <td>XSL Transformation</td>
+      </tr>
+      <tr align="center">
+        <td>Wednesday</td>
+        <td>8.00 a.m.</td>
+        <td>12:00 p.m.</td>
+        <td>XSL Formatting Objects</td>
+      </tr>
+  </body>
+</html>
